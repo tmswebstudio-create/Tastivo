@@ -11,7 +11,7 @@ export const AboutStory: React.FC = () => {
       {/* Decorative ambient lighting */}
       <div className="absolute right-0 top-1/2 -translate-y-1/2 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           {/* Left: Text Content */}
           <div className="lg:col-span-6 space-y-6">
@@ -27,7 +27,7 @@ export const AboutStory: React.FC = () => {
             </div>
 
             <p className="text-slate-200 text-base sm:text-lg leading-relaxed font-normal">
-              At webbiralfood.com, we believe food is more than nourishment — it is joy and connection. We bring together organic farm produce, world-class chefs, and fiery dedication to serve you pure deliciousness.
+              At Tastivofood.com, we believe food is more than nourishment — it is joy and connection. We bring together organic farm produce, world-class chefs, and fiery dedication to serve you pure deliciousness.
             </p>
 
             {/* Core Values Bullets */}

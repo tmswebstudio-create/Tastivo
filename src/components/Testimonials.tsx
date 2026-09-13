@@ -16,7 +16,7 @@ export const Testimonials: React.FC = () => {
 
   return (
     <section id="testimonials-section" className="py-16 sm:py-20 bg-[#F9FAF9] text-slate-900 border-t border-slate-200/60">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header with Carousel Navigation */}
         <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-12 gap-4">
           <div>
@@ -28,7 +28,7 @@ export const Testimonials: React.FC = () => {
               What Our Diners Say
             </h2>
             <p className="mt-2 text-slate-500 text-sm sm:text-base max-w-xl font-normal">
-              Real people. Real gourmet culinary moments. Here is what 50,000+ satisfied food lovers cherish about webbiral.
+              Real people. Real gourmet culinary moments. Here is what 50,000+ satisfied food lovers cherish about Tastivo.
             </p>
           </div>
 

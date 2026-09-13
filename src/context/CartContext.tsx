@@ -48,7 +48,7 @@ const CartContext = createContext<CartContextType | undefined>(undefined);
 export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [cart, setCart] = useState<CartItem[]>(() => {
     try {
-      const saved = localStorage.getItem('webbiral_cart');
+      const saved = localStorage.getItem('Tastivo_cart');
       return saved ? JSON.parse(saved) : [];
     } catch {
       return [];
@@ -57,7 +57,7 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const [favorites, setFavorites] = useState<string[]>(() => {
     try {
-      const saved = localStorage.getItem('webbiral_favorites');
+      const saved = localStorage.getItem('Tastivo_favorites');
       return saved ? JSON.parse(saved) : ['spec-1', 'menu-7'];
     } catch {
       return ['spec-1', 'menu-7'];
@@ -80,7 +80,7 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   useEffect(() => {
     try {
-      localStorage.setItem('webbiral_cart', JSON.stringify(cart));
+      localStorage.setItem('Tastivo_cart', JSON.stringify(cart));
     } catch {
       // ignore
     }
@@ -88,7 +88,7 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   useEffect(() => {
     try {
-      localStorage.setItem('webbiral_favorites', JSON.stringify(favorites));
+      localStorage.setItem('Tastivo_favorites', JSON.stringify(favorites));
     } catch {
       // ignore
     }

@@ -34,7 +34,7 @@ export const StoryBanner: React.FC = () => {
         <span className="text-5xl">🍃</span>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between gap-8">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between gap-8">
         {/* Title */}
         <div className="max-w-md text-center lg:text-left">
           <h2 className="text-3xl sm:text-4xl font-heading font-extrabold tracking-tight text-white leading-tight">

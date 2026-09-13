@@ -68,7 +68,7 @@ export const Hero: React.FC = () => {
         <span className="text-3xl">🍅</span>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8 items-center">
           {/* Left Column: Headline, Search/Order Bar & Quick Chips */}
           <div className="lg:col-span-7 space-y-6">

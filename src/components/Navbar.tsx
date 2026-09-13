@@ -92,24 +92,37 @@ export const Navbar: React.FC = () => {
       id="main-navbar"
       className="sticky top-0 z-40 w-full bg-[#06261C]/95 backdrop-blur-md border-b border-white/10 transition-all shadow-lg"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
         {/* Brand Logo */}
         <a
           id="nav-logo"
           href="#"
-          className="flex items-center gap-3 text-white group cursor-pointer shrink-0"
+          className="flex flex-col items-start group cursor-pointer shrink-0"
         >
-          <div className="w-11 h-11 rounded-2xl bg-gradient-to-br from-[#FF8A00] to-[#FF7000] flex items-center justify-center shadow-lg shadow-orange-500/25 group-hover:scale-105 transition-transform">
-            <UtensilsCrossed className="w-5 h-5 text-slate-950 stroke-[2.5]" />
-          </div>
-          <div className="flex flex-col">
-            <span className="text-xl sm:text-2xl font-heading font-extrabold tracking-tight text-white">
-              webbiral
+          <div className="flex items-center -mb-1">
+            <span className="text-3xl font-heading font-black text-transparent bg-clip-text bg-gradient-to-r from-[#FF8A00] to-[#FF7000] relative drop-shadow-sm group-hover:scale-105 transition-transform origin-bottom">
+              T
             </span>
-            <span className="text-[9px] text-emerald-400 font-bold tracking-widest uppercase">
-              • GOOD FOOD • GOOD MOOD •
+            <span className="text-3xl font-heading font-extrabold text-white drop-shadow-sm group-hover:scale-105 transition-transform origin-bottom delay-75">
+              ast
+            </span>
+            <span className="text-3xl font-heading font-extrabold text-white relative drop-shadow-sm group-hover:scale-105 transition-transform origin-bottom delay-100">
+              i
+              <span className="absolute -top-1.5 -right-1 text-[#FF8A00]">
+                <svg className="w-3 h-3 fill-current rotate-45" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 2C7.5 2 4 5.5 4 10C4 14.5 9 19 12 22C15 19 20 14.5 20 10C20 5.5 16.5 2 12 2ZM11 16V10H9L12 5L15 10H13V16H11Z" opacity="0" />
+                  <path d="M21.41 11.58C21.41 11.58 20.33 4.29 13.06 2.1C13.06 2.1 13.56 5.8 15.65 8.16C17.65 10.42 21.41 11.58 21.41 11.58ZM2.59 11.58C2.59 11.58 3.67 4.29 10.94 2.1C10.94 2.1 10.44 5.8 8.35 8.16C6.35 10.42 2.59 11.58 2.59 11.58Z" opacity="0"/>
+                  <path d="M12 2C7.5 2 4 5.5 4 10C4 16 12 22 12 22C12 22 20 16 20 10C20 5.5 16.5 2 12 2Z"/>
+                </svg>
+              </span>
+            </span>
+            <span className="text-3xl font-heading font-extrabold text-white drop-shadow-sm group-hover:scale-105 transition-transform origin-bottom delay-150">
+              vo
             </span>
           </div>
+          <span className="text-[9px] text-slate-300 font-semibold tracking-[0.2em] uppercase ml-0.5">
+            Fresh Food. Delivered.
+          </span>
         </a>
 
         {/* Desktop Navigation Links with Active Section Highlight */}

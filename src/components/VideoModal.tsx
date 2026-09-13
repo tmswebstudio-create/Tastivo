@@ -46,7 +46,7 @@ export const VideoModal: React.FC = () => {
 
           <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between text-xs text-slate-300">
             <span className="flex items-center gap-1.5 text-emerald-400 font-semibold">
-              <Sparkles className="w-3.5 h-3.5 text-[#FF8A00]" /> The Webbiral Farm-to-Table Promise
+              <Sparkles className="w-3.5 h-3.5 text-[#FF8A00]" /> The Tastivo Farm-to-Table Promise
             </span>
             <span className="text-slate-400 font-medium">HD • 1080p</span>
           </div>

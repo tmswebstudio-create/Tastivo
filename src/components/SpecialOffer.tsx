@@ -24,7 +24,7 @@ export const SpecialOffer: React.FC = () => {
   };
 
   return (
-    <section id="special-offer-section" className="py-12 sm:py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <section id="special-offer-section" className="py-12 sm:py-16 px-4 sm:px-6 lg:px-8 max-w-[1440px] mx-auto">
       <div className="bg-gradient-to-r from-[#FF8A00] via-[#ea580c] to-[#d97706] rounded-3xl sm:rounded-[36px] overflow-hidden shadow-2xl relative border-2 border-[#FF8A00]/40">
         {/* Background decorative patterns */}
         <div className="absolute top-0 right-0 w-80 h-80 bg-white/15 rounded-full blur-2xl pointer-events-none" />

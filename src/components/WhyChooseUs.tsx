@@ -35,7 +35,7 @@ export const WhyChooseUs: React.FC = () => {
       {/* Subtle background glow */}
       <div className="absolute -left-20 top-1/2 -translate-y-1/2 w-96 h-96 bg-emerald-600/10 rounded-full blur-3xl pointer-events-none" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           {/* Left: Plate of Fresh Pasta Image */}
           <div className="lg:col-span-5 flex justify-center">
@@ -74,7 +74,7 @@ export const WhyChooseUs: React.FC = () => {
             </div>
 
             <p className="text-slate-200 text-base sm:text-lg leading-relaxed max-w-2xl font-normal">
-              At webbiralfood.com, we serve more than just food — we deliver extraordinary dining moments. Every dish is prepared to order with farm-to-table freshness, balanced nutrition, and chef craftsmanship.
+              At Tastivofood.com, we serve more than just food — we deliver extraordinary dining moments. Every dish is prepared to order with farm-to-table freshness, balanced nutrition, and chef craftsmanship.
             </p>
 
             {/* 4 Circular Features */}

@@ -7,11 +7,11 @@ export const DownloadApp: React.FC = () => {
   const { showToast } = useCart();
 
   const handleDownloadClick = (platform: string) => {
-    showToast(`Webbiral Food ${platform} app download initiated!`);
+    showToast(`Tastivo Food ${platform} app download initiated!`);
   };
 
   return (
-    <section id="download-app-section" className="py-12 sm:py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <section id="download-app-section" className="py-12 sm:py-16 px-4 sm:px-6 lg:px-8 max-w-[1440px] mx-auto">
       <div className="bg-gradient-to-br from-[#031A13] via-[#06261C] to-[#041F16] rounded-3xl sm:rounded-[40px] p-8 sm:p-12 lg:p-14 text-white border border-emerald-900/60 shadow-2xl relative overflow-hidden">
         {/* Ambient lighting */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-[#FF8A00]/10 rounded-full blur-3xl pointer-events-none" />
@@ -63,7 +63,7 @@ export const DownloadApp: React.FC = () => {
             </div>
           </div>
 
-          {/* Center Column: Phone Mockup with Webbiral screen */}
+          {/* Center Column: Phone Mockup with Tastivo screen */}
           <div className="lg:col-span-3 flex justify-center">
             <div className="relative w-56 h-[380px] bg-slate-950 rounded-[38px] p-2.5 border-4 border-slate-800 shadow-2xl ring-1 ring-emerald-500/20">
               {/* Camera notch */}
@@ -74,14 +74,14 @@ export const DownloadApp: React.FC = () => {
               {/* Screen inside */}
               <div className="w-full h-full bg-[#06261C] rounded-[30px] overflow-hidden flex flex-col p-3 pt-7 text-white text-center justify-between border border-emerald-700/40">
                 <div className="space-y-1">
-                  <span className="text-[10px] text-[#FF8A00] font-heading font-bold">webbiral Food</span>
+                  <span className="text-[10px] text-[#FF8A00] font-heading font-bold">Tastivo Food</span>
                   <p className="text-[11px] font-heading font-bold leading-tight">Special 20% Off</p>
                 </div>
 
                 <div className="w-24 h-24 mx-auto rounded-full overflow-hidden border-2 border-[#FF8A00] shadow-lg">
                   <SafeImage
                     src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=300&q=80"
-                    alt="Webbiral App Screen"
+                    alt="Tastivo App Screen"
                     className="w-full h-full object-cover"
                   />
                 </div>
